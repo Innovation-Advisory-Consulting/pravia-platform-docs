@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You're Invited to Pravia</title>
+    
+    <style>
+        /* FARO Email Template Styles */
+        body { margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: white; }
+        .faro-gradient-bg { position: relative; background: radial-gradient(ellipse at 20% 30%, #F4791F 0%, transparent 50%), radial-gradient(ellipse at 80% 20%, #4DA6DE 0%, transparent 50%), radial-gradient(ellipse at 40% 70%, #E1660B 0%, transparent 50%), linear-gradient(135deg, #2A3B5E 0%, #494A4D 100%); min-height: 600px; overflow: hidden; }
+        .neural-network { position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0.25; }
+        .faro-curve-separator { position: absolute; bottom: -1px; left: 0; width: 100%; height: 80px; }
+        .faro-header-circle { width: 120px; height: 120px; margin: 0 auto 30px; background: rgba(255, 255, 255, 0.2); backdrop-filter: blur(10px); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1); }
+        .faro-header-circle-inner { width: 100px; height: 100px; background: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+        .faro-title { margin: 0; font-size: 36px; font-weight: 800; color: white; letter-spacing: -0.5px; text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); }
+        .faro-subtitle { margin: 10px 0 0 0; font-size: 18px; color: rgba(255, 255, 255, 0.9); font-weight: 400; }
+        .faro-card-title { margin: 0 0 20px 0; font-size: 28px; font-weight: 700; color: #494A4D; }
+        .faro-card-text { margin: 0 0 40px 0; font-size: 16px; color: #6D7073; line-height: 1.6; max-width: 400px; margin-left: auto; margin-right: auto; }
+        .faro-main-card { background: white; border-radius: 20px; padding: 50px 40px; box-shadow: 0 25px 50px rgba(73, 74, 77, 0.08); border: 1px solid #E5E5E5; margin-top: -260px; position: relative; z-index: 3; }
+        .faro-button { display: inline-block; background: #F4791F; color: white; padding: 18px 50px; text-decoration: none; border-radius: 12px; font-weight: 600; font-size: 16px; box-shadow: 0 15px 35px rgba(244, 121, 31, 0.3); }
+        .faro-divider { margin: 40px 0; display: flex; align-items: center; justify-content: center; }
+        .faro-divider-line { height: 1px; background: #E5E5E5; flex: 1; max-width: 100px; }
+        .faro-divider-text { margin: 0 20px; color: #939598; font-size: 14px; font-weight: 500; }
+        .faro-alt-section { background: #EAEEF6; padding: 25px; border-radius: 16px; border: 1px solid #DBE5F0; }
+        .faro-alt-title { margin: 0 0 15px 0; font-size: 14px; color: #494A4D; font-weight: 600; }
+        .faro-alt-text { margin: 0 0 15px 0; font-size: 14px; color: #6D7073; }
+        .faro-alt-link-box { background: white; padding: 15px; border-radius: 10px; border: 1px solid #CDD7E9; word-break: break-all; }
+        .faro-alt-link { color: #435F97; font-size: 13px; text-decoration: none; font-family: monospace; }
+        .mb-40 { margin-bottom: 40px; }
+        .faro-footer { text-align: center; margin-top: 50px; }
+        .faro-footer-card { display: inline-block; background: white; padding: 20px 30px; border-radius: 50px; box-shadow: 0 10px 25px rgba(73, 74, 77, 0.05); border: 1px solid #E5E5E5; }
+        .faro-footer-text { margin: 0; font-size: 14px; color: #6D7073; line-height: 1.5; }
+        .faro-container { max-width: 600px; margin: 0 auto; padding: 0 20px; }
+        .faro-header-container { padding: 60px 20px 120px; position: relative; z-index: 2; }
+        .faro-content-container { background: white; padding: 0 20px 60px; }
+        .text-center { text-align: center; }
+    </style>
+    
+</head>
+<body>
+    <!-- Gradient Background with Curve -->
+    <div class="faro-gradient-bg">
+        
+        <!-- Neural Network SVG -->
+        <svg class="neural-network" viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice">
+            <!-- Connections -->
+            <line x1="45" y1="60" x2="120" y2="85" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+            <line x1="45" y1="60" x2="140" y2="140" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+            <line x1="45" y1="60" x2="165" y2="95" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+            <line x1="80" y1="120" x2="120" y2="85" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+            <line x1="80" y1="120" x2="165" y2="95" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+            <line x1="80" y1="120" x2="180" y2="160" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+            <line x1="35" y1="180" x2="140" y2="140" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+            <line x1="35" y1="180" x2="180" y2="160" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+            <line x1="90" y1="240" x2="140" y2="140" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+            <line x1="90" y1="240" x2="180" y2="160" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+            <line x1="90" y1="240" x2="195" y2="220" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+            <line x1="60" y1="300" x2="195" y2="220" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+            <line x1="60" y1="300" x2="170" y2="280" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+            <line x1="120" y1="85" x2="280" y2="70" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+            <line x1="120" y1="85" x2="250" y2="120" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+            <line x1="140" y1="140" x2="280" y2="70" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+            <line x1="140" y1="140" x2="250" y2="120" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+            <line x1="165" y1="95" x2="320" y2="140" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+            <line x1="180" y1="160" x2="320" y2="140" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+            <line x1="180" y1="160" x2="290" y2="200" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+            <line x1="195" y1="220" x2="290" y2="200" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+            <line x1="195" y1="220" x2="340" y2="260" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+            <line x1="170" y1="280" x2="340" y2="260" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+            <line x1="280" y1="70" x2="420" y2="90" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+            <line x1="250" y1="120" x2="420" y2="90" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+            <line x1="320" y1="140" x2="420" y2="90" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+            <line x1="320" y1="140" x2="380" y2="180" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+            <line x1="290" y1="200" x2="380" y2="180" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+            <line x1="290" y1="200" x2="450" y2="240" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+            <line x1="340" y1="260" x2="450" y2="240" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+            <line x1="340" y1="260" x2="410" y2="320" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+            <line x1="420" y1="90" x2="520" y2="110" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+            <line x1="380" y1="180" x2="520" y2="110" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+            <line x1="450" y1="240" x2="520" y2="110" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+            <line x1="450" y1="240" x2="540" y2="200" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+            <line x1="410" y1="320" x2="540" y2="200" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+            <line x1="410" y1="320" x2="510" y2="300" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+            
+            <!-- Nodes -->
+            <circle cx="45" cy="60" r="2.5" fill="rgba(255,255,255,0.8)"/>
+            <circle cx="80" cy="120" r="3.5" fill="rgba(255,255,255,0.8)"/>
+            <circle cx="35" cy="180" r="2" fill="rgba(255,255,255,0.8)"/>
+            <circle cx="90" cy="240" r="4" fill="rgba(255,255,255,0.8)"/>
+            <circle cx="60" cy="300" r="3" fill="rgba(255,255,255,0.8)"/>
+            <circle cx="120" cy="85" r="2.5" fill="rgba(255,255,255,0.8)"/>
+            <circle cx="140" cy="140" r="3.5" fill="rgba(255,255,255,0.8)"/>
+            <circle cx="165" cy="95" r="2" fill="rgba(255,255,255,0.8)"/>
+            <circle cx="180" cy="160" r="3" fill="rgba(255,255,255,0.8)"/>
+            <circle cx="195" cy="220" r="4" fill="rgba(255,255,255,0.8)"/>
+            <circle cx="170" cy="280" r="2.5" fill="rgba(255,255,255,0.8)"/>
+            <circle cx="280" cy="70" r="3.5" fill="rgba(255,255,255,0.8)"/>
+            <circle cx="250" cy="120" r="2" fill="rgba(255,255,255,0.8)"/>
+            <circle cx="320" cy="140" r="3" fill="rgba(255,255,255,0.8)"/>
+            <circle cx="290" cy="200" r="2.5" fill="rgba(255,255,255,0.8)"/>
+            <circle cx="340" cy="260" r="4" fill="rgba(255,255,255,0.8)"/>
+            <circle cx="420" cy="90" r="3" fill="rgba(255,255,255,0.8)"/>
+            <circle cx="380" cy="180" r="2.5" fill="rgba(255,255,255,0.8)"/>
+            <circle cx="450" cy="240" r="3.5" fill="rgba(255,255,255,0.8)"/>
+            <circle cx="410" cy="320" r="2" fill="rgba(255,255,255,0.8)"/>
+            <circle cx="520" cy="110" r="3" fill="rgba(255,255,255,0.8)"/>
+            <circle cx="540" cy="200" r="2.5" fill="rgba(255,255,255,0.8)"/>
+            <circle cx="510" cy="300" r="3.5" fill="rgba(255,255,255,0.8)"/>
+        </svg>
+        
+        <!-- Curved separator -->
+        <svg class="faro-curve-separator" viewBox="0 0 1200 80" preserveAspectRatio="none">
+            <path d="M0,80 C300,20 600,60 1200,10 L1200,80 Z" fill="white"/>
+            <path d="M0,80 C300,20 600,60 1200,10" stroke="rgba(255, 255, 255, 0.3)" stroke-width="12" fill="none"/>
+        </svg>
+        
+        <div class="faro-container faro-header-container">
+            
+            <!-- Header -->
+            <div class="text-center mb-50">
+                <div class="faro-header-circle">
+                    <div class="faro-header-circle-inner">
+                        <svg width="50" height="50" viewBox="0 0 24 24" fill="none">
+                            <path d="M12 2C13.1 2 14 2.9 14 4C14 5.1 13.1 6 12 6C10.9 6 10 5.1 10 4C10 2.9 10.9 2 12 2ZM12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20ZM12 6C8.69 6 6 8.69 6 12C6 15.31 8.69 18 12 18C15.31 18 18 15.31 18 12C18 8.69 15.31 6 12 6ZM12 8C14.21 8 16 9.79 16 12C16 14.21 14.21 16 12 16C9.79 16 8 14.21 8 12C8 9.79 9.79 8 12 8Z" fill="url(#invite)"/>
+                            <defs>
+                                <linearGradient id="invite" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#F4791F"/>
+                                    <stop offset="100%" style="stop-color:#4DA6DE"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                </div>
+                <h1 class="faro-title">Pravia Compliance</h1>
+                <p class="faro-subtitle">System Access Invitation</p>
+            </div>
+
+        </div>
+    </div>
+    
+    <!-- White section below -->
+    <div class="faro-content-container">
+        <div class="faro-container">
+            
+            <!-- Main Card -->
+            <div class="faro-main-card">
+                
+                <div class="text-center">
+                    <h2 class="faro-card-title">System Access Invitation</h2>
+                    <p class="faro-card-text">
+                        You have been granted access to the compliance system. Click below to complete your account setup.
+                    </p>
+                    
+                    <!-- CTA Button -->
+                    <div class="mb-40">
+                        <a href="{{ .ConfirmationURL }}" class="faro-button">
+                            Complete Setup
+                        </a>
+                    </div>
+                    
+                    <!-- Divider -->
+                    <div class="faro-divider">
+                        <div class="faro-divider-line"></div>
+                        <span class="faro-divider-text">OR</span>
+                        <div class="faro-divider-line"></div>
+                    </div>
+                    
+                    <!-- Alternative Link -->
+                    <div class="faro-alt-section">
+                        <p class="faro-alt-title">
+                            Unable to access the setup button?
+                        </p>
+                        <p class="faro-alt-text">
+                            Copy and paste this account setup link into your browser:
+                        </p>
+                        <div class="faro-alt-link-box">
+                            <a href="{{ .ConfirmationURL }}" class="faro-alt-link">{{ .ConfirmationURL }}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Footer -->
+            <div class="faro-footer">
+                <div class="faro-footer-card">
+                    <p class="faro-footer-text">
+                        This invitation was sent to <strong style="color: #494A4D;">{{ .Email }}</strong><br>
+                        <span style="font-size: 13px;">If you believe you received this invitation in error, please contact your system administrator.</span>
+                    </p>
+                </div>
+                
+                <!-- FARO Branding -->
+                <div style="text-align: center; margin-top: 20px;">
+                    <div style="display: inline-flex; align-items: center; gap: 10px;">
+                        <img src="/Users/tonyhenderson/Desktop/FARO-2020-OG-Logo_-Final.avif" alt="FARO Logo" style="height: 28px;">
+                        <p style="margin: 0; font-size: 11px; color: #939598;">
+                            © FARO Software Solutions LLC 2025.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
