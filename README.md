@@ -171,19 +171,3 @@ For documentation updates:
 | Version | Date | Description |
 |---------|------|-------------|
 | 1.0.0 | Feb 19, 2026 | Initial complete documentation |
-
----
-
-## 📧 Contact
-
-For questions or access to the main project repository, contact the development team.
-
----
-
-## 📄 License
-
-[Your License Here]
-
----
-
-**Built with ❤️ by the Pravia Development Team**
